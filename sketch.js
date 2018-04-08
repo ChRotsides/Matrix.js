@@ -12,6 +12,3 @@ let c;
     console.table(b.ar);
     console.table(c.ar);
  }
-
- function draw(){
-}
