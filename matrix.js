@@ -24,7 +24,7 @@ class matrix{
     intrandomize(n,num){
         for(let i=0; i<this.rows; i++){
             for (let j=0; j<this.cols; j++){
-                this.ar[i][j]=floor(this.random(n,num));
+                this.ar[i][j]=Math.floor(this.random(n,num));
             }
         }
     }
@@ -48,7 +48,6 @@ class matrix{
         }
     }
     //The dot product return new matrix
-    //Not working
     dot(matobject){
         let nm=new matrix(this.rows,matobject.cols);
         if(this.rows!=matobject.cols){
